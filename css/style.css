@@ -1,6 +1,32 @@
 
 /* Reset */
 @import url(//codepen.io/chrisdothtml/pen/ojLzJK.css);
+.scrollToTop{
+	width:100px; 
+	height:100px;
+	padding:10px; 
+	text-align:center; 
+	background: whiteSmoke;
+	font-weight: bold;
+	color: #444;
+	text-decoration: none;
+	position:fixed;
+	top:75px;
+	right:40px;
+	display: none;
+	background: url('http://www.johnnybeardcompany.com/user/themes/big-picture/images/up1.png') no-repeat 0px 20px;
+}
+.scrollToTop:hover{
+	text-decoration:none;
+	
+	opacity: .7;
+}
+
+ul li{
+	list-style: none;
+}
+
+
 #banner .social-button {
 	opacity: .7;
 	background-color: #000;
@@ -181,7 +207,10 @@ body {
       padding: 60px 50px;
   }
   .bg-grey {
-      background-color: #f6f6f6;
+      background-color: #C4C4C4;
+  }
+  .bg-danger {
+	  background-color: #DBDBDB;
   }
   .logo-small {
       color: #f4511e;
@@ -331,3 +360,10 @@ body {
   }
 
 
+.sm-footer {
+	padding-top: 20px;
+}
+
+footer {
+	padding-top: 20px;
+}
